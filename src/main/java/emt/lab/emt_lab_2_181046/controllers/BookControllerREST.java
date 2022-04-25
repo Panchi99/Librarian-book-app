@@ -13,7 +13,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://calm-journey-65315.herokuapp.com/")
 @RequestMapping("/api/books")
 public class BookControllerREST {
 
