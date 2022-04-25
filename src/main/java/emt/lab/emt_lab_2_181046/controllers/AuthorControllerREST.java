@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://calm-journey-65315.herokuapp.com")
 @RequestMapping("/api/authors")
 public class AuthorControllerREST {
     public final AuthorService authorService;
